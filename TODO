@@ -1,0 +1,10 @@
+Priority queue over which landmarks to perform the 2.0 step with first
+Stats of slam
+
+Pose list filtering, two poses in straight line with same angle doesnt need to be saved
+
+sort landmarks when putting in global_map
+
+if we see cone from global map again we're screwed.
+maybe prune after loopclose
+

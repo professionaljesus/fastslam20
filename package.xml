@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>fastslam20</name>
+  <version>0.0.0</version>
+  <description>The fastslam2.0 package</description>
+
+  <!-- One maintainer tag required, multiple allowed, one person per tag -->
+  <maintainer email="technical.driverless@lundformulastudent.se">LFS Driverless</maintainer>
+
+  <license>MIT</license>
+  
+  <!-- ROS dependencies -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <!-- Node dependencies -->
+  <build_depend>roslib</build_depend>
+  <build_depend>lfs_msgs</build_depend>
+  <exec_depend>roslib</exec_depend>
+  <exec_depend>lfs_msgs</exec_depend>
+
+
+  <!-- C++ library dependencies -->
+  <build_depend>eigen</build_depend>
+
+  <build_depend>velocity_estimation</build_depend>
+  <exec_depend>velocity_estimation</exec_depend>
+
+</package>
